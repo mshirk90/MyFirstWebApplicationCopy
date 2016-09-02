@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Default.aspx" title="Home" description="Home">
+      <siteMapNode title="Account" url="~/BasicReporting/Default.aspx" description="Basic Reporting Samples">
+        <siteMapNode url="~/Acct/Login.aspx" title="Login" description="Allows the user to Login." />
+        <siteMapNode url="~/BasicReporting/DeclarativeParams.aspx" title="Account Management" description="Allows the user to change profile settings." />
+      </siteMapNode>
+
+      <siteMapNode title="Products" url="~/Filtering/Default.aspx" description="">
+        <siteMapNode url="~/Filtering/FilterByDropDownList.aspx" title="Our Catelog" description="Shows the user a list of products" />
+        <siteMapNode url="~/Filtering/MasterDetailsDetails.aspx" title="Shopping Cart" description="Filter results two levels down." />
+        <siteMapNode url="~/Filtering/DetailsBySelecting.aspx" title="Check Out" description="Show detail results for a selected item in a GridView." />
+      </siteMapNode>
+
+  </siteMapNode>
+
+</siteMap>
